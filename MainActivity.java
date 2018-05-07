@@ -41,7 +41,6 @@ public class MainActivity extends AppCompatActivity {
                 // Put hero object in intent
                 i.putExtra("hero", batman);
                 // Start the activity
-                startActivity(i);
                 startActivityForResult(i, requestCodeForBatmanStats);
             }});
     }
